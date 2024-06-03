@@ -27,8 +27,8 @@
 			out.print("로그인 성공");
 		} else {
 			out.print("로그인 실패");
+			response.sendRedirect("login.jsp");
 		}
-		
 	%>
 	<br>
 	<a href="loginCheck.jsp">로그인 확인 페이지로 이동</a>
